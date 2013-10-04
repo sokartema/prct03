@@ -1,0 +1,48 @@
+Respuestas practica 3 LPP
+
+18. La salida muestra el hola mundo con una flecha debajo que siempre nos indica el valor de la ultima expresion evaluada, que en este caso es nulo.
+
+21. Las comillas dobles "" traducen el \t \n como tabulador y el retorno de carro, las comillas simples son literales no traducen el \t y el \n. Por ejemplo #puts "holamundo\t\n" nos mostraria por pantalla holamundo y traduciria el tabulador y el retorno de carro en cambio #puts 'holamundo\t\n' Mostraria por pantalla holamundo\t\n.
+
+22. "%q" actúa como comillas simples. No traduce el \n ya que actua como comillas simples.
+
+
+23. "%Q" actúa como comillas dobles. Traduce el \n.
+
+24. En "c" queda "--4--\n--2--\n", una cadena de caracteres en la que se ha sustituído el valor de "a" y de "b". El c= << HERE indica que lo que vas a escribir a continuacion hasta donde vuelvas a escribir HERE se guarde en la variable c.
+
+25. Hace lo mismo de arriba pero interpreta lo que hay dentro como si fuera comillas simples por lo que quedaria de resultado "--\#{a}--\n--\#{b}--\n". No sustituye los \#{a}
+
+26.
+
+s = "hello" -> Guarda en la variable s la cadena hello
+
+s[0,2] -> El primer numero indica que se posiciona en el primer caracter de la cadena y el segundo numero cuantos caracteres a partir de ahi quieres imprimir. "he"
+
+s[-1,1] -> Se posiciona en la posicion anterior al primer caracter por lo que se posiciona en el ultimo y imprime 1 caracter por lo que quedaria "o"
+
+s[0,10] -> Se posiciona en la primera posicion y imprime 10 caracteres pero como solo hay 5 imprime "hello"
+
+27. el g << " world" añade a continuacion de g si existe algo la cadena que se indica a continuacion. Quedaria "hello world"
+
+28. >> e = '.'*3
+
+Indica que quieres guardar la expresion '.' multiplicada por 3 por lo que quedaria "..."
+
+29.
+
+Interpreteria la expresion entre comillas que daria de resultado 2 y la coloca en la misma cadena 3 veces. "2 2 2"
+
+30. Se crea un array con los componentes de cada palabra separada por espacios en corchetes. ["this", "is", "a", "test"]
+
+
+
+
+
+
+
+
+
+
+
+
